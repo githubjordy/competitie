@@ -1,0 +1,63 @@
+﻿@model IEnumerable<wedstrijdplannenmvc.Models.Team>
+
+@{
+    ViewData["Title"] = "View";
+}
+
+<h1 class="myheaders">Competitiestand</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Naam)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.punten)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.doelpuntentegen)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.doelpuntenvoor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.doelsaldo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.wedstrijdengespeeld)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Naam)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.punten)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.doelpuntentegen)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.doelpuntenvoor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.doelsaldo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.wedstrijdengespeeld)
+                </td>
+
+            </tr>
+        }
+    </tbody>
+</table>
+
+<div class="wrapperCompetitiestand" >
+<a asp-action="Index"><button class="mybutton BackButton">Back</button></a>
+</div>

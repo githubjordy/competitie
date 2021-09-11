@@ -1,0 +1,116 @@
+﻿@model IEnumerable<wedstrijdplannenmvc.Models.TeamWedstrijd>
+
+@{
+    ViewData["Title"] = "ToonSchemaVoorTeam";
+    int increment = 0;
+    //string formname = "myForm"+ increment.ToString();
+    //string uitslag = String.Empty;
+}
+    @ViewData["thuisteam"]
+<h1 class="myheaders">ToonSchemaVoorTeam</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Thuisteam
+            </th>
+            <th>
+                Uiteam
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Westrijd.datum)
+            </th>
+
+            <th>
+                @Html.DisplayNameFor(model => model.Westrijd.thuisteamuitslag)
+            </th>
+
+
+
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var group in Model.GroupBy(y => y.WedstrijdId).ToList())
+        {
+            var datum = new DateTime();
+            var uitslag = String.Empty;
+            //var test = group;
+            Team uitteam = new Team();
+            Team thuisteam = new Team();
+            Wedstrijd wedstrijd = new Wedstrijd();
+            increment++;
+        <form name="myForm @increment.ToString()" asp-action="ToonSchemaVoorTeam" method="post" onsubmit="return JavaScriptValidation(this)">
+        <tr>
+            @foreach (var user in group)
+            {
+                    datum = user.Westrijd.datum;
+
+                   
+                
+                
+
+                @if (user.Westrijd.thuisteam == user.team.Naam)
+                {
+                    uitslag = user.Westrijd.thuisteamuitslag;
+                    thuisteam = user.team;
+                    wedstrijd = user.Westrijd;
+                    <td>
+                        @Html.DisplayFor(modelItem => user.team.Naam)
+                    </td>
+
+                }
+                else
+                {
+                    uitteam = user.team;
+                    uitslag = user.Westrijd.uitteamuitslag;
+                }
+
+
+
+            }
+            <td>
+                @uitteam.Naam
+            </td>
+
+            <td>
+                @datum
+            </td>
+            <td>
+                @if (uitslag != "")
+                {
+                    @uitslag
+                }
+                else
+                {
+                    <input type="hidden" id="wedstrijdId" name="wedstrijdId" value=@wedstrijd.Id>
+                    <input type="hidden" id="thuisteamId" name="thuisteamId" value=@thuisteam.Id>
+                    <input class="e-input" name='inputthuisteam' type="text" placeholder="thuisteam" />
+                    @Html.Raw("-")
+                    <input type="hidden" id="uitteamId" name="uitteamId" value=@uitteam.Id>
+                    <input class="e-input" name='inputuitteam' type="text" placeholder="uitteam" />
+
+                }
+
+
+            </td>
+
+            <td>
+                @if (uitslag=="") {
+                <a asp-action="SpeelSchema"><button type="submit" class="AddUitslagButton">Add</button></a>
+                }
+            </td>
+
+
+
+        </tr>
+        </form>
+
+        }
+    </tbody>
+</table>
+
+<div class="wrapperCompetitiestand">
+    <a asp-action="SpeelSchema"><button class="mybutton BackButton">Back</button></a>
+</div>

@@ -1,0 +1,18 @@
+﻿@model wedstrijdplannenmvc.Models.Team;
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+
+    <div class=" wrapper">
+        <form asp-action="ResetCompetitie" method="post" id="resetcompetitieform">
+            <button type="submit" class="mybutton">Reset competitie</button>
+            </form>
+            <a asp-action="SpeelSchema"><button class="mybutton">Speelschema</button></a>
+            <a asp-action="CompetitieStand"><button class="mybutton">Competitiestand</button></a>
+</div>
+
+
+</div>

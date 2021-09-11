@@ -1,0 +1,36 @@
+﻿@model IEnumerable<wedstrijdplannenmvc.Models.Team>
+
+@{
+    ViewData["Title"] = "SpeelSchema";
+}
+
+<h1 class="myheaders">SpeelSchema</h1>
+
+<table class="table" id="Teamtable">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Naam)
+            </th>
+            
+            <th>Speelschema</th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Naam)
+            </td>
+           
+            <td>            
+               <a asp-action="ToonSchemaVoorTeam" asp-route-id="@item.Id">ToonSchema</a>              
+            </td>
+        </tr>
+}           
+    </tbody>
+</table>
+
+<div class="wrapperCompetitiestand">
+    <a asp-action="Index"><button class="mybutton BackButton">Back</button></a>
+</div>

@@ -1,0 +1,98 @@
+﻿#resetcompetitieform {
+
+    display:inline-block;
+}
+
+
+#Teamtable {
+    width: 400px;
+    margin: 0 auto;
+}
+
+
+ #Teamtable th {
+ border: 2px solid black;
+ }
+#Teamtable td {
+ border: 2px solid black;
+ }
+
+
+
+.BackButton {
+    width: 15%;
+}
+
+.table {
+    text-align: center;
+    color: blue;
+}
+
+.mybutton {
+    color: white;
+    background-color: black;   
+    padding: 15px 32px;
+    border:5px solid gold;
+    margin:20px;
+}
+
+.mybutton:hover {
+
+        background-color:gold;
+}
+
+header{
+    position:relative;
+    width:100%;
+    height:50px;
+    background-color:black;
+}
+
+.titleforapp {
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    color: white;
+    font-size: 1.5rem;
+    width: 100%;
+    text-align: center;
+}
+
+
+.myheaders {
+    text-align:center;
+    margin-top:40px;
+}
+
+.wrapper {
+    margin-top: 200px;
+}
+
+footer {
+
+    background-color:black;
+}
+
+.myspan {
+    text-align: center;
+    display: inline-block;
+    width:100%;
+}
+
+.wrapperCompetitiestand {
+
+    width:100%;
+    text-align:center;
+}
+
+.AddUitslagButton {
+    width: 100%;
+    padding: 0px;
+    margin-top: 0px;
+    color: white;
+    background-color: black;
+    border: 5px solid gold;
+    padding-left:32px;
+    padding-right:32px;
+}

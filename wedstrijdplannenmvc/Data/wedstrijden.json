@@ -1,0 +1,884 @@
+[
+  {
+    "uitteam": {
+      "Naam": "TeamB",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamA",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamC",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamA",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamD",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamA",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamE",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamA",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamF",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamA",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamG",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamA",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamA",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamB",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamC",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamB",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamD",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamB",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamE",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamB",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamF",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamB",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamG",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamB",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamA",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamC",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamB",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamC",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamD",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamC",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamE",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamC",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamF",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamC",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamG",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamC",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamA",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamD",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamB",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamD",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamC",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamD",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamE",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamD",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamF",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamD",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamG",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamD",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamA",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamE",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamB",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamE",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamC",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamE",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamD",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamE",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamF",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamE",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamG",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamE",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamA",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamF",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamB",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamF",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamC",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamF",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamD",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamF",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamE",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamF",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamG",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamF",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamA",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamG",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamB",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamG",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamC",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamG",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamD",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamG",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamE",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamG",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  },
+  {
+    "uitteam": {
+      "Naam": "TeamF",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "thuisteam": {
+      "Naam": "TeamG",
+      "punten": 0,
+      "doelpuntentegen": 0,
+      "doelpuntenvoor": 0,
+      "doelsaldo": 0,
+      "wedstrijdengespeeld": 0,
+      "wedstrijden": 0
+    },
+    "uitslag": null
+  }
+]
