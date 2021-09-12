@@ -34,82 +34,66 @@
     <tbody>
         @foreach (var group in Model.GroupBy(y => y.WedstrijdId).ToList())
         {
-            var datum = new DateTime();
-            var uitslag = String.Empty;
-            //var test = group;
-            Team uitteam = new Team();
-            Team thuisteam = new Team();
-            Wedstrijd wedstrijd = new Wedstrijd();
+
             increment++;
+            bool boolean = true;
+            int thuisteamid = 0;
         <form name="myForm @increment.ToString()" asp-action="ToonSchemaVoorTeam" method="post" onsubmit="return JavaScriptValidation(this)">
         <tr>
-            @foreach (var user in group)
+            
+            @foreach (var user in group.OrderBy(x => x, new SortTeams()).ToList())
             {
-                    datum = user.Westrijd.datum;
+                    if (boolean)
+                     {
+                    <td>
+                        @Html.DisplayFor(modelItem => user.team.Naam)
+                    </td>
+                    thuisteamid = user.TeamId;
+                    boolean = false;
+                    continue;
+                }
 
-                   
-                
-                
-
-                @if (user.Westrijd.thuisteam == user.team.Naam)
-                {
-                    uitslag = user.Westrijd.thuisteamuitslag;
-                    thuisteam = user.team;
-                    wedstrijd = user.Westrijd;
                     <td>
                         @Html.DisplayFor(modelItem => user.team.Naam)
                     </td>
 
-                }
-                else
-                {
-                    uitteam = user.team;
-                    uitslag = user.Westrijd.uitteamuitslag;
-                }
+                    <td>
+                        @Html.DisplayFor(modelItem => user.Westrijd.datum)
+                    </td>
+                    <td>
+                        @if (user.Westrijd.thuisteamuitslag != "")
+                        {
+                            @user.Westrijd.thuisteamuitslag
+                        }
+                        else
+                        {
+                            <input type="hidden" id="wedstrijdId" name="wedstrijdId" value=@user.Westrijd.Id>                          
+                            <input type="hidden" id="thuisteamId" name="thuisteamId" value=@thuisteamid>
 
+                            <input class="e-input" name='inputthuisteam' type="text" placeholder="thuisteam" />
+                            @Html.Raw("-")
+                            <input type="hidden" id="uitteamId" name="uitteamId" value=@user.team.Id>
+                            <input class="e-input" name='inputuitteam' type="text" placeholder="uitteam" />
 
+                        }
 
+                    </td>
+
+                    <td>
+                        @if (user.Westrijd.thuisteamuitslag == "")
+                        {
+                        <a asp-action="SpeelSchema"><button type="submit" class="AddUitslagButton">Add</button></a>
+                        }
+                    </td>
             }
-            <td>
-                @uitteam.Naam
-            </td>
-
-            <td>
-                @datum
-            </td>
-            <td>
-                @if (uitslag != "")
-                {
-                    @uitslag
-                }
-                else
-                {
-                    <input type="hidden" id="wedstrijdId" name="wedstrijdId" value=@wedstrijd.Id>
-                    <input type="hidden" id="thuisteamId" name="thuisteamId" value=@thuisteam.Id>
-                    <input class="e-input" name='inputthuisteam' type="text" placeholder="thuisteam" />
-                    @Html.Raw("-")
-                    <input type="hidden" id="uitteamId" name="uitteamId" value=@uitteam.Id>
-                    <input class="e-input" name='inputuitteam' type="text" placeholder="uitteam" />
-
-                }
 
 
-            </td>
-
-            <td>
-                @if (uitslag=="") {
-                <a asp-action="SpeelSchema"><button type="submit" class="AddUitslagButton">Add</button></a>
-                }
-            </td>
-
-
-
-        </tr>
-        </form>
-
+                </tr>
+                </form>
         }
-    </tbody>
-</table>
+
+            </tbody>
+        </table>
 
 <div class="wrapperCompetitiestand">
     <a asp-action="SpeelSchema"><button class="mybutton BackButton">Back</button></a>

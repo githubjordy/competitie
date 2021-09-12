@@ -10,15 +10,25 @@
         return false;
     }
 
-    if (x.includes(",") || y.includes(",") || x.includes(".") || y.includes(".")) {
-        alert("vul een integer in aub");
+    //if (x.includes(",") || y.includes(",") || x.includes(".") || y.includes(".")) {
+    //    alert("vul een integer in aub");
+    //    return false;
+    //}
+
+    var reg = /^\d+$/;
+    var xisint =reg.test(x);
+    var yisint =reg.test(y);
+
+
+    if (!xisint || !yisint) {
+        alert("vul een integer in");
         return false;
     }
 
     x = Number.parseInt(x);
     y = Number.parseInt(y);
-    let isxinteger = Number.isInteger(x);
-    let isyinteger = Number.isInteger(y);
+    //let isxinteger = Number.isInteger(x);
+    //let isyinteger = Number.isInteger(y);
 
 
     //x = Number.parseFloat(x);
@@ -30,10 +40,7 @@
    //isxinteger = Number.isInteger(x);
    //isyinteger = Number.isInteger(y);
 
-    if (!isxinteger || !isyinteger) {
-        alert("vul een integer in");
-        return false;
-    }
+   
 
 
 
